@@ -15,6 +15,10 @@
 
 <input type=hidden name="oid" value="00DOt000002m0EL">
 <input type=hidden name="retURL" value="http://bootbarn.com">
+<input type=hidden name="00NOt00000TCGGP" id="00NOt00000TCGGP" value="UAT Test Show">
+<input type=hidden name="00NOt00000TCGI1" id="00NOt00000TCGI1" value="6/12/2026">
+<input type=hidden name="00NOt00000TBwET" id="00NOt00000TBwET" value="6/10/2026">
+<input type=hidden name="00NOt00000TBwKv" id="00NOt00000TBwKv" value="1,000-4,999">
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
@@ -26,15 +30,15 @@
 
 <label for="first_name">First Name</label><input  id="first_name" maxlength="40" name="first_name" size="20" type="text" Required /><br>
 
-<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" /><br>
+<label for="last_name">Last Name</label><input  id="last_name" maxlength="80" name="last_name" size="20" type="text" Required /><br>
 
-<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" /><br>
+<label for="email">Email</label><input  id="email" maxlength="80" name="email" size="20" type="text" Required /><br>
 
-<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" /><br>
+<label for="phone">Phone</label><input  id="phone" maxlength="40" name="phone" size="20" type="text" Required /><br>
 
-<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" /><br>
+<label for="company">Company</label><input  id="company" maxlength="40" name="company" size="20" type="text" Required /><br>
 
-Company Size (Employee Count):<select  id="00NOt00000TAi1M" name="00NOt00000TAi1M" title="Company Size (Employee Count)"><option value="">--None--</option><option value="0–9">0–9</option>
+Company Size (Employee Count):<select  id="00NOt00000TAi1M" name="00NOt00000TAi1M" title="Company Size (Employee Count)" required="required"><option value="">--None--</option><option value="0–9">0–9</option>
 <option value="10-49">10-49</option>
 <option value="50-99">50-99</option>
 <option value="100-499">100-499</option>
@@ -44,7 +48,7 @@ Company Size (Employee Count):<select  id="00NOt00000TAi1M" name="00NOt00000TAi1
 <option value="10k+">10k+</option>
 </select><br>
 
-Industry Type:<select  id="00NOt00000TAi1S" name="00NOt00000TAi1S" title="Industry Type"><option value="">--None--</option><option value="Agriculture">Agriculture</option>
+Industry Type:<select  id="00NOt00000TAi1S" name="00NOt00000TAi1S" title="Industry Type"><option value="">--None--</option><option value="Agriculture" required="required">Agriculture</option>
 <option value="Auto Industry">Auto Industry</option>
 <option value="Construction">Construction</option>
 <option value="Corporate">Corporate</option>
@@ -106,10 +110,6 @@ Annual Event:<select  id="00NOt00000TCGDB" name="00NOt00000TCGDB" title="Annual 
 <option value="No">No</option>
 </select><br>
 
-Show Name:<input  id="00NOt00000TCGGP" maxlength="255" name="00NOt00000TCGGP" size="20" type="text" /><br>
-
-Show Date:<span class="dateInput dateOnlyInput"><input  id="00NOt00000TCGI1" name="00NOt00000TCGI1" size="12" type="text" /></span><br>
-
 <label for="lead_source">Lead Source</label><select  id="lead_source" name="lead_source"><option value="">--None--</option><option value="Advertisement">Advertisement</option>
 <option value="Customer Event">Customer Event</option>
 <option value="Employee Referral">Employee Referral</option>
@@ -130,7 +130,7 @@ Public / Private:<select  id="00NOt00000TAi1i" name="00NOt00000TAi1i" title="Pub
 <option value="Private">Private</option>
 </select><br>
 
-Primary Contact Role:<input  id="00NOt00000TCG9x" maxlength="255" name="00NOt00000TCG9x" size="20" type="text" /><br>
+Primary Contact Role:<input  id="00NOt00000TCG9x" maxlength="255" name="00NOt00000TCG9x" size="20" type="text" Required /><br>
 
 Corporate Office Location (Street):<textarea  id="0BCOt0000028Sftstreet" name="0BCOt0000028Sftstreet" type="text" wrap="soft"></textarea><br>
 
