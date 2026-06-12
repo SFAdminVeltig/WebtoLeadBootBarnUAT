@@ -92,18 +92,6 @@ Email Opt In:<input  id="00NOt00000TBw6P" name="00NOt00000TBw6P" type="checkbox"
 
 Mobile Opt in:<input  id="00NOt00000TBwBF" name="00NOt00000TBwBF" type="checkbox" value="1" /><br>
 
-Event Date:<span class="dateInput dateOnlyInput"><input  id="00NOt00000TBwET" name="00NOt00000TBwET" size="12" type="text" /></span><br>
-
-Event Participant #s:<select  id="00NOt00000TBwKv" name="00NOt00000TBwKv" title="Event Participant #s"><option value="">--None--</option><option value="0–9">0–9</option>
-<option value="10-49">10-49</option>
-<option value="50-99">50-99</option>
-<option value="100-499">100-499</option>
-<option value="500-999">500-999</option>
-<option value="1,000-4,999">1,000-4,999</option>
-<option value="5,000-9,999">5,000-9,999</option>
-<option value="10k+">10k+</option>
-</select><br>
-
 Event Location:<input  id="00NOt00000TCDp1" maxlength="255" name="00NOt00000TCDp1" size="20" type="text" /><br>
 
 Annual Event:<select  id="00NOt00000TCGDB" name="00NOt00000TCGDB" title="Annual Event"><option value="">--None--</option><option value="Yes">Yes</option>
