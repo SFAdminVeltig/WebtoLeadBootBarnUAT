@@ -114,6 +114,8 @@ Parent Company:<select  id="00NOt00000TCGMr" name="00NOt00000TCGMr" title="Paren
 <option value="No">No</option>
 </select><br>
 
+Parent Company Name:<input  id="00NOt00000TCIwX" maxlength="255" name="00NOt00000TCIwX" size="20" type="text" /><br>
+
 Public / Private:<select  id="00NOt00000TAi1i" name="00NOt00000TAi1i" title="Public / Private"><option value="">--None--</option><option value="Public">Public</option>
 <option value="Private">Private</option>
 </select><br>
@@ -718,6 +720,10 @@ Number of Locations:<select  id="00NOt00000TCGQ5" name="00NOt00000TCGQ5" title="
 </select><br>
 
 Embroidery:<select  id="00NOt00000TCGTJ" name="00NOt00000TCGTJ" title="Embroidery"><option value="">--None--</option><option value="Yes">Yes</option>
+<option value="No">No</option>
+</select><br>
+
+Government Flag:<select  id="00NOt00000TCGrV" name="00NOt00000TCGrV" title="Government Flag"><option value="">--None--</option><option value="Yes">Yes</option>
 <option value="No">No</option>
 </select><br>
 
