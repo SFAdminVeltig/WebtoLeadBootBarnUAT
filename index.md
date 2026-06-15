@@ -6,6 +6,10 @@
 <!--  ----------------------------------------------------------------------  -->
 
 <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+<script src="https://www.google.com/recaptcha/api.js"></script>
+<script>
+ function timestamp() { var response = document.getElementById("g-recaptcha-response"); if (response == null || response.value.trim() == "") {var elems = JSON.parse(document.getElementsByName("captcha_settings")[0].value);elems["ts"] = JSON.stringify(new Date().getTime());document.getElementsByName("captcha_settings")[0].value = JSON.stringify(elems); } } setInterval(timestamp, 500); 
+</script>
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: Please add the following <FORM> element to your page.             -->
@@ -13,6 +17,7 @@
 
 <form action="https://test.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8&orgId=00DOt000002m0EL" method="POST">
 
+<input type=hidden name='captcha_settings' value='{"keyname":"BBW2LreCAPTCHA","fallback":"true","orgId":"00DOt000002m0EL","ts":""}'>
 <input type=hidden name="oid" value="00DOt000002m0EL">
 <input type=hidden name="retURL" value="http://bootbarn.com">
 <input type=hidden name="00NOt00000TCGGP" id="00NOt00000TCGGP" value="UAT Test Show">
@@ -760,6 +765,7 @@ Program Type:<select  id="00NOt00000TAi1h" name="00NOt00000TAi1h" title="Program
 <option value="PO">PO</option>
 </select><br>
 
+<div class="g-recaptcha" data-sitekey="6LeW-SAtAAAAAKEthr02S-gl_gycV4Xq9HGYxVLh"></div><br>
 <input type="submit" name="submit">
 
 </form>
