@@ -19,6 +19,8 @@
 <input type=hidden name='captcha_settings' value='{"keyname":"BBW2LreCAPTCHA","fallback":"true","orgId":"00DOt000011vrhd","ts":""}'>
 <input type=hidden name="oid" value="00DOt000011vrhd">
 <input type=hidden name="retURL" value="http://bootbarn.com">
+<input type="hidden" name="debug" value="1">
+<input type="hidden" name="debugEmail" value="sfadmin+bootbarn@veltig.com">
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
