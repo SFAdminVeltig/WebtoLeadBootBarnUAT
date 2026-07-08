@@ -24,6 +24,8 @@
 <input type=hidden name="00NOt00000TCGI1" id="00NOt00000TCGI1" value="6/12/2026">
 <input type=hidden name="00NOt00000TBwET" id="00NOt00000TBwET" value="6/10/2026">
 <input type=hidden name="00NOt00000TBwKv" id="00NOt00000TBwKv" value="1,000-4,999">
+<input type="hidden" name="debug" value="1"> 
+<input type="hidden" name="debugEmail" value="sfadmin+bootbarn@veltig.com">
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
