@@ -20,6 +20,7 @@
 <input type=hidden name="oid" value="00DOt000011vrhd">
 <input type=hidden name="retURL" value="http://bootbarn.com">
 <input type=hidden id="00NOt00000Tkqvl" name="00NOt00000Tkqvl" value="701Ot00001i32bSIAQ">
+<input type="hidden" name="debug" value="1"> <input type="hidden" name="debugEmail" value="tyler.mackinnon@veltig.com">
 
 <!--  ----------------------------------------------------------------------  -->
 <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
